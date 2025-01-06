@@ -30,9 +30,7 @@
       }
     ],
     "data": {
-      "objectName": "invoices",
-      "context": {
-      }
+      "objectName": "invoices"
     },
     "name": "page_invoices_form",
     "id": "u:bd5d1a90496e"
