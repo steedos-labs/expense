@@ -10,7 +10,7 @@ is_use_iframe: false
 mobile: true
 objects: []
 showSidebar: true
-sort: 1000
+sort: 60
 tab_groups:
   - group_name: 客商设置
     default_open: true

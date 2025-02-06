@@ -5,7 +5,7 @@ icon_slds: reward
 is_creator: true
 mobile: true
 showSidebar: false
-sort: 30
+sort: 20
 tab_items:
   sales_dashboard:
     index: 0

@@ -5,7 +5,7 @@ icon_slds: opportunity
 is_creator: true
 mobile: true
 showSidebar: false
-sort: 20
+sort: 50
 tab_items:
   object_accounts:
     index: 1
