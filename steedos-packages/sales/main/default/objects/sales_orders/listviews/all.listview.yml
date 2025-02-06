@@ -1,16 +1,40 @@
 name: all
 columns:
   - field: name
-  - field: contract_code
+    width: '350'
+    wrap: true
   - field: customer
+    width: '300'
+    wrap: true
   - field: signed_date
+  - field: maturity_date
   - field: amount
-  - field: amount_receive
+  - field: billing_money
+  - field: left_receive
+  - field: buyer
+  - field: followup_id
   - field: instance_state
+  - field: description
+    width: '350'
+    wrap: true
+crud_mode: table
+enable_amis_schema: false
 filter_scope: space
 filters: []
-label: 全部合同
+is_enable: true
+label: 公司合同
+locked: false
+mobile_columns: []
 scrolling_mode: standard
-shared: true
-sort_no: 100
+searchable_fields: []
+shared_to: space
+show_count: true
+sort:
+  - field_name: maturity_date
+    order: desc
+  - field_name: signed_date
+    order: desc
+  - field_name: created
+    order: desc
+sort_no: 10
 type: grid

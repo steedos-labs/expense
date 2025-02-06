@@ -1,31 +1,35 @@
 name: all
 columns:
   - field: id
-    wrap: false
   - field: due_date
-    wrap: false
   - field: amount
-    wrap: false
   - field: supplier
-    wrap: false
   - field: supplier_bank
-    wrap: false
   - field: instance_state
-    wrap: false
   - field: payment_status
-    wrap: false
   - field: payment_date
-    wrap: false
+  - field: created_by
   - field: amount_description
-    wrap: false
+    width: '400'
+    wrap: true
+crud_mode: table
+enable_amis_schema: false
 filter_fields:
   - contract
   - payment_date
   - supplier
 filter_scope: space
-label: 所有付款单
-shared: true
+filters: []
+is_enable: true
+label: 所有
+locked: false
+mobile_columns: []
+scrolling_mode: standard
+searchable_fields: []
+shared_to: space
 show_count: false
 sort:
   - field_name: id
     order: desc
+sort_no: 10
+type: grid

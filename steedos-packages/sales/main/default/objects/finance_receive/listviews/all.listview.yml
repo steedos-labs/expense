@@ -8,13 +8,16 @@ columns:
   - field: amount_description
   - field: is_active
   - field: receipt_date
-  - field: billno
+  - field: created_by
   - field: instance_state
+crud_mode: table
+enable_amis_schema: false
 filter_scope: space
 filters: []
 from_code_id: finance_receive.all
 is_enable: true
-label: 所有
+label: 所有收款记录
+locked: false
 mobile_columns: []
 scrolling_mode: standard
 searchable_fields:
@@ -23,10 +26,14 @@ searchable_fields:
   - field: customer_bank
   - field: due_date
   - field: name
-shared: true
+shared_to: space
 show_count: false
 sort:
+  - field_name: created
+    order: desc
   - field_name: due_date
     order: asc
-sort_no: 100
+  - field_name: receipt_date
+    order: asc
+sort_no: 10
 type: grid
