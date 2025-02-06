@@ -1,19 +1,25 @@
 name: customer
-label: 客户
-reference_to: accounts
-sort_no: 10
-type: lookup
-required: true
-is_wide: false
 amis:
   autoFill:
     fillMapping:
-      "buyer": "${buyer}"
+      buyer: '${buyer}'
     api:
-      url: "${context.rootUrl}/graphql"
+      url: '${context.rootUrl}/graphql'
       method: post
-      headers: 
-        Authorization: "Bearer ${context.tenantId},${context.authToken}"
+      headers:
+        Authorization: 'Bearer ${context.tenantId},${context.authToken}'
       data:
-        query: "{rows:contacts(filters: [[\"account\", \"=\", \"${customer}\"]], top: 10){name,_id}}"
-      adaptor: "console.log('11==> ', payload);var rows = payload.data.rows; if(rows && rows.length>0){ payload.data={ buyer:rows[0]._id }; }  return payload;"
+        query: >-
+          {rows:contacts(filters: [["account", "=", "${customer}"]], top:
+          10){name,_id}}
+      adaptor: >-
+        console.log('11==> ', payload);var rows = payload.data.rows; if(rows &&
+        rows.length>0){ payload.data={ buyer:rows[0]._id }; }  return payload;
+  id: 'u:4dc10d6af53b'
+group: 通用
+is_wide: false
+label: 客户
+reference_to: accounts
+required: true
+sort_no: 100
+type: lookup

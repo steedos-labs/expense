@@ -1,6 +1,8 @@
 name: buyer_mobile
+amis: {}
+group: 通用
 label: 联系电话
-sort_no: 46
-type: text
 required: false
-visible_on: "{{global.mode ==='read' ? true : false}}"
+sort_no: 450
+type: text
+visible_on: '{{global.mode ===''read'' ? true : false}}'

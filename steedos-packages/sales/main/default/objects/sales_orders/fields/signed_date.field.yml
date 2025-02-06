@@ -1,5 +1,8 @@
 name: signed_date
+amis:
+  id: 'u:ddea8eb14635'
 filterable: true
+group: 通用
 hidden: false
 index: false
 is_name: false
@@ -9,6 +12,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 27
+sort_no: 250
 sortable: true
 type: date

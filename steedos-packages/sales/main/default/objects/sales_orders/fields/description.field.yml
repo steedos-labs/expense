@@ -1,5 +1,9 @@
 name: description
-label: 备注
+amis:
+  id: 'u:c11ec3d144be'
+group: 通用
 is_wide: true
+label: 备注
+rows: 3
+sort_no: 700
 type: textarea
-sort_no: 110

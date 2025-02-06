@@ -1,0 +1,25 @@
+name: implementation
+amis:
+  id: 'u:b51f0ea81876'
+data_type: text
+group: 通用
+label: 执行情况
+options:
+  - label: 签订中
+    value: Signing
+    color: '#4a90e2'
+  - label: 执行中
+    value: in-progress
+    color: '#7ed321'
+  - label: 已结束
+    value: finsih
+    color: '#f5a623'
+  - label: 已续签
+    value: Renewed
+    color: '#f8e71c'
+  - label: 终止
+    value: termination
+    color: '#d0021b'
+required: true
+sort_no: 400
+type: select

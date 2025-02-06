@@ -1,16 +1,22 @@
 name: buyer
-label: 联系人
-sort_no: 45
-type: lookup
-required: true
-reference_to: contacts
-multiple: false
-inlineHelpText: 请选择当前客户下的联系人。
+amis:
+  id: 'u:a733b90a09ff'
 depend_on:
   - customer
-filtersFunction: !!js/function |
-  function (filters, values) {
+filtersFunction: !<tag:yaml.org,2002:js/function> |-
+  function(filters,values
+  ) {
+
       return [
       ['account','=',values.customer]
     ];
+
   }
+group: 通用
+inlineHelpText: 请选择当前客户下的联系人。
+label: 联系人
+multiple: false
+reference_to: contacts
+required: true
+sort_no: 350
+type: lookup

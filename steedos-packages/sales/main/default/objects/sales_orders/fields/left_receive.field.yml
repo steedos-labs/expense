@@ -1,11 +1,13 @@
 name: left_receive
+amis: {}
 data_type: currency
 filterable: false
-formula: ROUND(amount-verification_money,2)
-inlineHelpText: 合同金额-核销金额
+formula: 'ROUND(amount-verification_money,2)'
 formula_blank_value: zeroes
+group: 收款管理
 hidden: false
 index: false
+inlineHelpText: 合同金额-核销金额
 is_name: false
 is_wide: true
 label: 合同应收
@@ -15,7 +17,6 @@ readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 80
+sort_no: 1000
 sortable: false
 type: formula
-group: 收款管理

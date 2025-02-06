@@ -1,5 +1,8 @@
 name: maturity_date
+amis:
+  id: 'u:ad5e517aeabe'
 filterable: true
+group: 通用
 hidden: false
 index: false
 is_name: false
@@ -9,6 +12,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 30
+sort_no: 300
 sortable: true
 type: date

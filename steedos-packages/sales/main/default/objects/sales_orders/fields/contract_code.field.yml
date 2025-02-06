@@ -1,7 +1,10 @@
 name: contract_code
-label: 合同编号
-sort_no: 20
+amis:
+  id: 'u:fe8f606c59fb'
 filterable: true
-searchable: true
 formula: 'YS-{00000}'
+group: 通用
+label: 合同编号
+searchable: true
+sort_no: 150
 type: autonumber

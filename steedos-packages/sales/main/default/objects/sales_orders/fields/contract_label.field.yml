@@ -1,16 +1,19 @@
 name: contract_label
-label: 合同标签
-sort_no: 25
+amis:
+  id: 'u:d6caa67d0d20'
+filterable: true
+group: 通用
 hidden: false
 index: false
 is_name: false
 is_wide: true
+label: 合同标签
 multiple: true
 omit: false
 readonly: false
 reference_to: contract_label
 required: false
 searchable: false
+sort_no: 200
 sortable: false
 type: lookup
-filterable: true

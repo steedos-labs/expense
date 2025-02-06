@@ -1,6 +1,9 @@
 name: department
+amis:
+  id: 'u:412d8d99a7b1'
+group: 通用
 label: 部门
 reference_to: organizations
-sort_no: 55
-type: lookup
 required: true
+sort_no: 550
+type: lookup

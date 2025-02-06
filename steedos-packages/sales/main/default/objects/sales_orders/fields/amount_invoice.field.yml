@@ -1,4 +1,5 @@
 name: amount_invoice
+amis: {}
 create: true
 data_type: currency
 filterable: false
@@ -6,10 +7,10 @@ generated: false
 group: 开票管理
 hidden: false
 index: false
+inlineHelpText: 除了已开票状态合同开票明细记录的汇总金额。
 is_name: false
 is_wide: false
 label: 开票中
-inlineHelpText: 除了已开票状态合同开票明细记录的汇总金额。
 multiple: false
 precision: 18
 primary: false
@@ -17,7 +18,7 @@ readonly: false
 scale: 2
 searchable: false
 show_as_qr: false
-sort_no: 102
+sort_no: 1400
 sortable: false
 summary_field: amount_invoicing
 summary_filters:

@@ -1,12 +1,13 @@
 name: amount_receiving
+amis: {}
 create: true
 data_type: currency
 filterable: false
 generated: false
-inlineHelpText: 收款审批中的收款金额
 group: 收款管理
 hidden: false
 index: false
+inlineHelpText: 收款审批中的收款金额
 is_name: false
 is_wide: false
 label: 收款中金额
@@ -17,7 +18,7 @@ readonly: false
 scale: 2
 searchable: false
 show_as_qr: false
-sort_no: 105
+sort_no: 1200
 sortable: false
 summary_field: amount_invoicing
 summary_filters:

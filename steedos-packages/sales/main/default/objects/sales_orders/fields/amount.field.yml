@@ -1,5 +1,8 @@
 name: amount
+amis:
+  id: 'u:67db36b1ff5d'
 filterable: false
+group: 通用
 hidden: false
 index: false
 is_name: false
@@ -11,6 +14,6 @@ readonly: false
 required: true
 scale: 2
 searchable: false
-sort_no: 24
+sort_no: 600
 sortable: true
 type: number
