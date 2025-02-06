@@ -10,8 +10,8 @@ is_wide: false
 label: 合同日期
 omit: false
 readonly: false
-required: false
+required: true
 searchable: false
-sort_no: 250
+sort_no: 200
 sortable: true
 type: date

@@ -2,6 +2,7 @@ name: modified_by
 amis: {}
 description: ''
 disabled: true
+enable_thousands: true
 group: 系统信息
 index: true
 inlineHelpText: ''

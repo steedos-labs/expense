@@ -2,6 +2,7 @@ name: modified
 amis:
   id: 'u:d1a8c21aa63d'
 description: ''
+enable_thousands: true
 group: 系统信息
 index: true
 inlineHelpText: ''

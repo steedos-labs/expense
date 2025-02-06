@@ -2,6 +2,7 @@ name: instance_state
 amis:
   id: 'u:842c29b53509'
 description: ''
+enable_thousands: true
 group: 通用
 inlineHelpText: ''
 label: 申请单审批状态

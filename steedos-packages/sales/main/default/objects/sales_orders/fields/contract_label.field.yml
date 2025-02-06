@@ -12,8 +12,8 @@ multiple: true
 omit: false
 readonly: false
 reference_to: contract_label
-required: false
+required: true
 searchable: false
-sort_no: 200
+sort_no: 600
 sortable: false
 type: lookup

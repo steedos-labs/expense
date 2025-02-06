@@ -18,6 +18,7 @@ columns:
   - field: description
     width: '350'
     wrap: true
+  - field: contract_label
 crud_mode: table
 enable_amis_schema: false
 filter_scope: space

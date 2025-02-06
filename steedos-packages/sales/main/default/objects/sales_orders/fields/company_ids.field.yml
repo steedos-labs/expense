@@ -2,6 +2,7 @@ name: company_ids
 amis:
   id: 'u:2f5b9f995325'
 description: ''
+enable_thousands: true
 group: 通用
 hidden: false
 index: true

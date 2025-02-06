@@ -2,6 +2,7 @@ name: locked
 amis:
   id: 'u:37d1313534bd'
 description: ''
+enable_thousands: true
 group: 通用
 hidden: false
 inlineHelpText: ''

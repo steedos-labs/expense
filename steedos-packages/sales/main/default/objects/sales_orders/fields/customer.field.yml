@@ -16,6 +16,9 @@ amis:
         console.log('11==> ', payload);var rows = payload.data.rows; if(rows &&
         rows.length>0){ payload.data={ buyer:rows[0]._id }; }  return payload;
   id: 'u:4dc10d6af53b'
+  multiple: false
+  editorState: default
+  buyer: ''
 group: 通用
 is_wide: false
 label: 客户

@@ -2,6 +2,7 @@ name: created
 amis:
   id: 'u:f87f7d260f55'
 description: ''
+enable_thousands: true
 group: 系统信息
 index: true
 inlineHelpText: ''

@@ -3,6 +3,6 @@ amis: {}
 group: 通用
 label: 联系电话
 required: false
-sort_no: 450
+sort_no: 400
 type: text
 visible_on: '{{global.mode ===''read'' ? true : false}}'

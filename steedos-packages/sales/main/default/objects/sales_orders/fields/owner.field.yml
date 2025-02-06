@@ -2,6 +2,7 @@ name: owner
 amis:
   id: 'u:e53fe280eb02'
 description: ''
+enable_thousands: true
 group: 通用
 index: true
 inlineHelpText: ''

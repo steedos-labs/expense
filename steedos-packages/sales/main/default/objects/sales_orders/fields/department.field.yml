@@ -5,5 +5,5 @@ group: 通用
 label: 部门
 reference_to: organizations
 required: true
-sort_no: 550
+sort_no: 500
 type: lookup
