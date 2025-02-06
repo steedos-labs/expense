@@ -1,4 +1,5 @@
 name: standard_approve
-is_enable: true
+is_enable: false
 label: 发起审批
 'on': record
+visible: false
