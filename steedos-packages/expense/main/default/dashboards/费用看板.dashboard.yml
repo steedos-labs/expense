@@ -10,7 +10,7 @@ parameters:
     id: 25746b57
     type: date/all-options
     sectionId: date
-    default: past12months
+    default: thisyear
 show_in_getting_started: false
 cards:
   - card_id: 659cf1dad7782305bf974f07
@@ -70,7 +70,14 @@ cards:
     col: 3
     entity_id: 659cf68ad7782305bf974f12
     id: 659cf68ad7782305bf974f12
-    parameter_mappings: []
+    parameter_mappings:
+      - parameter_id: 25746b57
+        card_id: 659cf64cd7782305bf974f11
+        target:
+          - dimension
+          - - field
+            - expense_reports.start
+            - null
     row: 0
     series: []
     size_x: 3
@@ -82,7 +89,14 @@ cards:
     col: 0
     entity_id: 659cf6fed7782305bf974f14
     id: 659cf6fed7782305bf974f14
-    parameter_mappings: []
+    parameter_mappings:
+      - parameter_id: 25746b57
+        card_id: 659cf6f8d7782305bf974f13
+        target:
+          - dimension
+          - - field
+            - expense_reports.start
+            - null
     row: 0
     series: []
     size_x: 3

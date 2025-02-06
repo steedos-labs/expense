@@ -10,7 +10,7 @@ parameters:
     id: 1b622080
     type: date/all-options
     sectionId: date
-    default: past12months
+    default: thisyear
 show_in_getting_started: false
 cards:
   - card_id: 65ab3ac64bab3305be0caa8b
@@ -236,7 +236,14 @@ cards:
     col: 11
     entity_id: 65b9f1a2dd062c0646e9553a
     id: 65b9f1a2dd062c0646e9553a
-    parameter_mappings: []
+    parameter_mappings:
+      - parameter_id: 1b622080
+        card_id: 65b9f197dd062c0646e95539
+        target:
+          - dimension
+          - - field
+            - sales_orders.signed_date
+            - null
     row: 8
     series: []
     size_x: 7
@@ -246,7 +253,14 @@ cards:
     col: 0
     entity_id: 65b9f26fdd062c0646e9553c
     id: 65b9f26fdd062c0646e9553c
-    parameter_mappings: []
+    parameter_mappings:
+      - parameter_id: 1b622080
+        card_id: 65b9f208dd062c0646e9553b
+        target:
+          - dimension
+          - - field
+            - sales_orders.signed_date
+            - null
     row: 8
     series: []
     size_x: 11
