@@ -16,7 +16,6 @@ enable_instances: true
 enable_lock_detail: true
 enable_notes: false
 enable_share: false
-enable_split: true
 enable_tasks: false
 enable_tree: false
 enable_workflow: true
