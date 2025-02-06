@@ -1,7 +1,7 @@
 name: all
 columns:
   - field: product
-  - field: product_number
+  - field: name
   - field: specification
   - field: measurement
   - field: material_group
@@ -19,7 +19,7 @@ is_enable: true
 label: 所有
 mobile_columns:
   - field: product
-  - field: product_number
+  - field: name
   - field: specification
   - field: sales_unit
   - field: quantity
