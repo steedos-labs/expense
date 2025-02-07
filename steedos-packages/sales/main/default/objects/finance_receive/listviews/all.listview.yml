@@ -9,7 +9,6 @@ columns:
   - field: is_active
   - field: receipt_date
   - field: created_by
-  - field: instance_state
 crud_mode: table
 enable_amis_schema: false
 filter_scope: space
